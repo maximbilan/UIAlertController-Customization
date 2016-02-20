@@ -35,6 +35,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D03D0161C7751140085D9EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9493180C1C763EF10021384C /* AppDelegate.swift */,
+				9493180E1C763EF10021384C /* ViewController.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6D03D0171C77511A0085D9EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				949318101C763EF10021384C /* Main.storyboard */,
+				949318151C763EF10021384C /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6D03D0181C7751280085D9EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				949318131C763EF10021384C /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D03D0191C7751340085D9EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				949318181C763EF10021384C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		949318001C763EF10021384C = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +88,10 @@
 		9493180B1C763EF10021384C /* AlertControllerCustomization */ = {
 			isa = PBXGroup;
 			children = (
-				9493180C1C763EF10021384C /* AppDelegate.swift */,
-				9493180E1C763EF10021384C /* ViewController.swift */,
-				949318101C763EF10021384C /* Main.storyboard */,
-				949318131C763EF10021384C /* Assets.xcassets */,
-				949318151C763EF10021384C /* LaunchScreen.storyboard */,
-				949318181C763EF10021384C /* Info.plist */,
+				6D03D0161C7751140085D9EC /* Sources */,
+				6D03D0171C77511A0085D9EC /* UI */,
+				6D03D0181C7751280085D9EC /* Resources */,
+				6D03D0191C7751340085D9EC /* Supporting Files */,
 			);
 			path = AlertControllerCustomization;
 			sourceTree = "<group>";
@@ -286,6 +318,7 @@
 				9493181D1C763EF10021384C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
