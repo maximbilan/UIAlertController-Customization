@@ -13,11 +13,11 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let rightBarButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Done, target: self, action: "doneAction")
+		let rightBarButton = UIBarButtonItem(title: "Press", style: UIBarButtonItemStyle.Done, target: self, action: "pressAction")
 		self.navigationItem.rightBarButtonItem = rightBarButton
 	}
 
-	func doneAction() {
+	func pressAction() {
 		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertControllerStyle.ActionSheet)
 		
 		let alertAction1 = UIAlertAction(title: "One", style: UIAlertActionStyle.Default, handler: nil)
@@ -37,4 +37,3 @@ class ViewController: UIViewController {
 	}
 
 }
-
