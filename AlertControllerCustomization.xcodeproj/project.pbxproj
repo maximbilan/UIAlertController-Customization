@@ -12,6 +12,9 @@
 		944BDD641C79B5A500C0DAB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BDD5A1C79B5A500C0DAB6 /* ViewController.swift */; };
 		944BDD661C79B5A500C0DAB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD5E1C79B5A500C0DAB6 /* LaunchScreen.storyboard */; };
 		944BDD671C79B5A500C0DAB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD601C79B5A500C0DAB6 /* Main.storyboard */; };
+		944BDD6B1C79B63500C0DAB6 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD681C79B63500C0DAB6 /* image1.png */; };
+		944BDD6C1C79B63500C0DAB6 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD691C79B63500C0DAB6 /* image2.png */; };
+		944BDD6D1C79B63500C0DAB6 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD6A1C79B63500C0DAB6 /* image3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		944BDD5C1C79B5A500C0DAB6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944BDD5F1C79B5A500C0DAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944BDD611C79B5A500C0DAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944BDD681C79B63500C0DAB6 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		944BDD691C79B63500C0DAB6 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		944BDD6A1C79B63500C0DAB6 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
 		949318091C763EF10021384C /* AlertControllerCustomization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertControllerCustomization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -38,6 +44,9 @@
 		944BDD561C79B5A500C0DAB6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				944BDD681C79B63500C0DAB6 /* image1.png */,
+				944BDD691C79B63500C0DAB6 /* image2.png */,
+				944BDD6A1C79B63500C0DAB6 /* image3.png */,
 				944BDD571C79B5A500C0DAB6 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -155,6 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				944BDD661C79B5A500C0DAB6 /* LaunchScreen.storyboard in Resources */,
+				944BDD6D1C79B63500C0DAB6 /* image3.png in Resources */,
+				944BDD6C1C79B63500C0DAB6 /* image2.png in Resources */,
+				944BDD6B1C79B63500C0DAB6 /* image1.png in Resources */,
 				944BDD621C79B5A500C0DAB6 /* Assets.xcassets in Resources */,
 				944BDD671C79B5A500C0DAB6 /* Main.storyboard in Resources */,
 			);
