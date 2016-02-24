@@ -25,7 +25,9 @@ class ViewController: UIViewController {
 		let alertAction3 = UIAlertAction(title: "Three", style: UIAlertActionStyle.Default, handler: nil)
 		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
 		
-		alertAction2.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
+		alertAction1.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
+		alertAction2.setValue(UIImage(named: "image2.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
+		alertAction3.setValue(UIImage(named: "image3.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
 		
 		alertController.addAction(alertAction1)
 		alertController.addAction(alertAction2)
