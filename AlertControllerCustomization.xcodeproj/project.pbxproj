@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D9D60621C882C8D0036071B /* SwitchAlertActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D60601C882C8D0036071B /* SwitchAlertActionViewController.swift */; };
+		6D9D60631C882C8D0036071B /* SwitchAlertActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D60611C882C8D0036071B /* SwitchAlertActionViewController.xib */; };
 		944BDD621C79B5A500C0DAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944BDD571C79B5A500C0DAB6 /* Assets.xcassets */; };
 		944BDD631C79B5A500C0DAB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BDD591C79B5A500C0DAB6 /* AppDelegate.swift */; };
 		944BDD641C79B5A500C0DAB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BDD5A1C79B5A500C0DAB6 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D9D60601C882C8D0036071B /* SwitchAlertActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchAlertActionViewController.swift; sourceTree = "<group>"; };
+		6D9D60611C882C8D0036071B /* SwitchAlertActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchAlertActionViewController.xib; sourceTree = "<group>"; };
 		944BDD571C79B5A500C0DAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944BDD591C79B5A500C0DAB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944BDD5A1C79B5A500C0DAB6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		944BDD581C79B5A500C0DAB6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6D9D60601C882C8D0036071B /* SwitchAlertActionViewController.swift */,
+				6D9D60611C882C8D0036071B /* SwitchAlertActionViewController.xib */,
 				944BDD591C79B5A500C0DAB6 /* AppDelegate.swift */,
 				944BDD5A1C79B5A500C0DAB6 /* ViewController.swift */,
 			);
@@ -163,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9D60631C882C8D0036071B /* SwitchAlertActionViewController.xib in Resources */,
 				944BDD661C79B5A500C0DAB6 /* LaunchScreen.storyboard in Resources */,
 				944BDD6D1C79B63500C0DAB6 /* image3.png in Resources */,
 				944BDD6C1C79B63500C0DAB6 /* image2.png in Resources */,
@@ -179,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9D60621C882C8D0036071B /* SwitchAlertActionViewController.swift in Sources */,
 				944BDD641C79B5A500C0DAB6 /* ViewController.swift in Sources */,
 				944BDD631C79B5A500C0DAB6 /* AppDelegate.swift in Sources */,
 			);
