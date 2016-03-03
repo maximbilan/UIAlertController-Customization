@@ -26,8 +26,11 @@ class ViewController: UIViewController {
 		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
 		
 		alertAction1.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
-		alertAction2.setValue(UIImage(named: "image2.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
 		alertAction3.setValue(UIImage(named: "image3.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
+	
+		let switchAlert = SwitchAlertActionViewController()
+		switchAlert.isSwitchOn = true
+		alertAction2.setValue(switchAlert, forKey: "contentViewController")
 		
 		alertController.addAction(alertAction1)
 		alertController.addAction(alertAction2)
