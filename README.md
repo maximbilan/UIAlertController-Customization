@@ -9,6 +9,7 @@ I know it doesn’t math Apple design flow, but maybe someone will come in handy
 The first, how to add some image. UIAlertController or UIAlertAction has not public methods for this, but you can do this via setValue for key ‘image’. For example:
 
 <pre>
+alertAction.setValue(UIImage(named: "image1.png"), forKey: "image")
 </pre>
 
 But you will get no good result.
@@ -18,6 +19,7 @@ But you will get no good result.
 Please create a version of this image with the specified rendering mode. In our case with AlwaysOriginal.
 
 <pre>
+alertAction.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
 </pre>
 
 And see what we will get:
@@ -31,11 +33,26 @@ Let’s create new view controller and user interface for this.
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/4.png)
 
 <pre>
+import UIKit
+
+class SwitchAlertActionViewController: UIViewController {
+  @IBOutlet weak var valueSwitch: UISwitch!
+  var isSwitchOn = false
+ 
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+    valueSwitch.on = isSwitchOn
+  }
+}
 </pre>
 
 And the last point, we need to apply this controller to UIAlertAction. The same way using key ‘contentViewController’.
 
 <pre>
+let switchAlert = SwitchAlertActionViewController()
+switchAlert.isSwitchOn = true
+alertAction.setValue(switchAlert, forKey: "contentViewController")
 </pre>
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/5.png)
