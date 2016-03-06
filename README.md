@@ -6,7 +6,7 @@ Recently I’m faced with unusual task using UIAlertController. First, add image
 
 I know it doesn’t math Apple design flow, but maybe someone will come in handy for resolving different tasks.
 
-The first, how to add some image. UIAlertController or UIAlertAction has not public methods for this, but you can do this via setValue for key ‘image’. For example:
+The first, how to add some image. UIAlertController or UIAlertAction has not public methods for this, but you can do this via setValue for key ‘<i>image</i>’. For example:
 
 <pre>
 alertAction.setValue(UIImage(named: "image1.png"), forKey: "image")
@@ -47,7 +47,7 @@ class SwitchAlertActionViewController: UIViewController {
 }
 </pre>
 
-And the last point, we need to apply this controller to UIAlertAction. The same way using key ‘contentViewController’.
+And the last point, we need to apply this controller to UIAlertAction. The same way using key ‘<i>contentViewController</i>’.
 
 <pre>
 let switchAlert = SwitchAlertActionViewController()
