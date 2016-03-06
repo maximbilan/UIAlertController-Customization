@@ -1,6 +1,6 @@
 # iOS UIAlertController Customization
 
-Recently I’m faced with unusual task using <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a>. First, add image to some of items. And the second, add UISwitch control.
+Recently I’m faced with unusual task using <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a>. First, add image to some of items. And the second, add <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISwitch_Class/">UISwitch</a> control.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/1.png)
 
