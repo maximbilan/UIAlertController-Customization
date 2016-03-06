@@ -16,7 +16,7 @@ But you will get no good result.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/2.png)
 
-Please create a version of this image with the specified rendering mode. In our case with AlwaysOriginal.
+Please create a version of this image with the specified rendering mode. In our case with <i>AlwaysOriginal</i>.
 
 <pre>
 alertAction.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
