@@ -1,12 +1,12 @@
 # iOS UIAlertController Customization
 
-Recently I’m faced with unusual task using UIAlertController. First, add image to some of items. And the second, add UISwitch control.
+Recently I’m faced with unusual task using <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a>. First, add image to some of items. And the second, add UISwitch control.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/1.png)
 
-I know it doesn’t math Apple design flow, but maybe someone will come in handy for resolving different tasks.
+I know it doesn’t math <i>Apple</i> design flow, but maybe someone will come in handy for resolving different tasks.
 
-The first, how to add some image. UIAlertController or UIAlertAction has not public methods for this, but you can do this via setValue for key ‘<i>image</i>’. For example:
+The first, how to add some image. <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a> or UIAlertAction has not public methods for this, but you can do this via setValue for key ‘<i>image</i>’. For example:
 
 <pre>
 alertAction.setValue(UIImage(named: "image1.png"), forKey: "image")
