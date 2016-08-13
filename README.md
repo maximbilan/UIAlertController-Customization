@@ -47,7 +47,7 @@ class SwitchAlertActionViewController: UIViewController {
 }
 </pre>
 
-And the last point, we need to apply this controller to <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertAction_Class/">UIAlertAction</a>. The same way using key ‘<i>contentViewController</i>’.
+And the last point, we need to apply this controller to <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertAction_Class/">UIAlertAction</a>. The same way using key ‘<b><i>contentViewController</i></b>’.
 
 <pre>
 let switchAlert = SwitchAlertActionViewController()
