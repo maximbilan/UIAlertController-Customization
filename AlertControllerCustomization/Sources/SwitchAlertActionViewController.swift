@@ -16,7 +16,7 @@ class SwitchAlertActionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		valueSwitch.on = isSwitchOn
+		valueSwitch.isOn = isSwitchOn
     }
 	
 }

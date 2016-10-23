@@ -13,20 +13,20 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let rightBarButton = UIBarButtonItem(title: "Press", style: UIBarButtonItemStyle.Done, target: self, action: "pressAction")
+		let rightBarButton = UIBarButtonItem(title: "Press", style: UIBarButtonItemStyle.done, target: self, action: #selector(ViewController.pressAction))
 		self.navigationItem.rightBarButtonItem = rightBarButton
 	}
 
 	func pressAction() {
-		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertControllerStyle.ActionSheet)
+		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertControllerStyle.actionSheet)
 		
-		let alertAction1 = UIAlertAction(title: "One", style: UIAlertActionStyle.Default, handler: nil)
-		let alertAction2 = UIAlertAction(title: "Two", style: UIAlertActionStyle.Default, handler: nil)
-		let alertAction3 = UIAlertAction(title: "Three", style: UIAlertActionStyle.Default, handler: nil)
-		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+		let alertAction1 = UIAlertAction(title: "One", style: UIAlertActionStyle.default, handler: nil)
+		let alertAction2 = UIAlertAction(title: "Two", style: UIAlertActionStyle.default, handler: nil)
+		let alertAction3 = UIAlertAction(title: "Three", style: UIAlertActionStyle.default, handler: nil)
+		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil)
 		
-		alertAction1.setValue(UIImage(named: "image1.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
-		alertAction3.setValue(UIImage(named: "image3.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), forKey: "image")
+		alertAction1.setValue(UIImage(named: "image1.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), forKey: "image")
+		alertAction3.setValue(UIImage(named: "image3.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), forKey: "image")
 	
 		let switchAlert = SwitchAlertActionViewController()
 		switchAlert.isSwitchOn = true
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
 		let popPresenter = alertController.popoverPresentationController
 		popPresenter?.sourceView = self.view
 		popPresenter?.barButtonItem = self.navigationItem.rightBarButtonItem
-		self.presentViewController(alertController, animated: true, completion: nil)
+		self.present(alertController, animated: true, completion: nil)
 	}
 
 }
