@@ -4,7 +4,7 @@ Recently I’m faced with unusual task using <a href="https://developer.apple.co
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/1.png)
 
-I know it doesn’t math <i>Apple</i> design flow, but maybe someone will come in handy for resolving different tasks.
+I know it doesn’t matсh <i>Apple</i> design flow, but maybe someone will come in handy for resolving different tasks.
 
 The first, how to add some image. <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a> or <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertAction_Class/">UIAlertAction</a> has not public methods for this, but you can do this via <i>setValue</i> for key ‘<i>image</i>’. For example:
 
