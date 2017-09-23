@@ -1,6 +1,6 @@
 # iOS UIAlertController Customization
 
-Recently I’m faced with unusual task using <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a>. First, add image to some of items. And the second, add <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISwitch_Class/">UISwitch</a> control.
+Recently I’m faced with the unusual task using <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertController_class/">UIAlertController</a>. First, add image to some of items. And the second, add <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISwitch_Class/">UISwitch</a> control.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/1.png)
 
@@ -28,7 +28,7 @@ And see what we will get:
 
 The second thing, how to add the switch control? 
 
-Let’s create new view controller and user interface for this.
+Let’s create a new view controller and user interface for this.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/4.png)
 
