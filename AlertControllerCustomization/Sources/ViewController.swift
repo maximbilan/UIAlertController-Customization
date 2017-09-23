@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 		self.navigationItem.rightBarButtonItem = rightBarButton
 	}
 
-	func pressAction() {
+	@objc func pressAction() {
 		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertControllerStyle.actionSheet)
 		
 		let alertAction1 = UIAlertAction(title: "One", style: UIAlertActionStyle.default, handler: nil)
