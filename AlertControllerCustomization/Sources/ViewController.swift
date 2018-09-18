@@ -13,20 +13,20 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let rightBarButton = UIBarButtonItem(title: "Press", style: UIBarButtonItemStyle.done, target: self, action: #selector(ViewController.pressAction))
+		let rightBarButton = UIBarButtonItem(title: "Press", style: UIBarButtonItem.Style.done, target: self, action: #selector(ViewController.pressAction))
 		self.navigationItem.rightBarButtonItem = rightBarButton
 	}
 
 	@objc func pressAction() {
-		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertControllerStyle.actionSheet)
+		let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: UIAlertController.Style.actionSheet)
 		
-		let alertAction1 = UIAlertAction(title: "One", style: UIAlertActionStyle.default, handler: nil)
-		let alertAction2 = UIAlertAction(title: "Two", style: UIAlertActionStyle.default, handler: nil)
-		let alertAction3 = UIAlertAction(title: "Three", style: UIAlertActionStyle.default, handler: nil)
-		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil)
+		let alertAction1 = UIAlertAction(title: "One", style: UIAlertAction.Style.default, handler: nil)
+		let alertAction2 = UIAlertAction(title: "Two", style: UIAlertAction.Style.default, handler: nil)
+		let alertAction3 = UIAlertAction(title: "Three", style: UIAlertAction.Style.default, handler: nil)
+		let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
 		
-		alertAction1.setValue(UIImage(named: "image1.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), forKey: "image")
-		alertAction3.setValue(UIImage(named: "image3.png")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), forKey: "image")
+		alertAction1.setValue(UIImage(named: "image1.png")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), forKey: "image")
+		alertAction3.setValue(UIImage(named: "image3.png")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), forKey: "image")
 	
 		let switchAlert = SwitchAlertActionViewController()
 		switchAlert.isSwitchOn = true
