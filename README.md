@@ -28,7 +28,7 @@ And see what we will get:
 
 The second thing, how to add a switch control? 
 
-Let’s create a new view controller and an user interface for this.
+Let’s create a new view controller and a user interface for this.
 
 ![alt tag](https://raw.github.com/maximbilan/UIAlertController-Customization/master/img/4.png)
 
@@ -47,7 +47,7 @@ class SwitchAlertActionViewController: UIViewController {
 }
 </pre>
 
-And the last point, we need to apply this controller to <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertAction_Class/">UIAlertAction</a>. The same way using key <b><i>contentViewController</i></b>.
+And the last point, we need to apply this controller to <a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAlertAction_Class/">UIAlertAction</a>. The same way using a key <b><i>contentViewController</i></b>.
 
 <pre>
 let switchAlert = SwitchAlertActionViewController()
